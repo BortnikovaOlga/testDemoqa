@@ -10,9 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ChromeDriverExt implements BeforeAllCallback, AfterAllCallback {
     @Override
     public void beforeAll(ExtensionContext extensionContext) throws Exception {
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver\\chromedriver.exe");
-        WebDriver driver = new  ChromeDriver();
-        WebDriverRunner.setWebDriver(driver);
+//        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver\\chromedriver.exe");
+//        WebDriver driver = new  ChromeDriver();
+//        WebDriverRunner.setWebDriver(driver);
         Configuration.timeout = 20000;
     }
 
